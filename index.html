@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <h2>Welcome To Our Game</h2>
+    <div class="container">
+      <div id="paper"><i class="fas fa-hand-paper"></i></div>
+      <div id="rock"><i class="fas fa-hand-rock"></i></div>
+      <div id="scissors"><i class="fas fa-hand-scissors"></i></div>
+    </div>
+
+    <div class="result">
+      <h2>The Score :</h2>
+      <a id="again">
+        Play Again
+      </a>
+      <div class="content">
+        <div class="player">
+          <img src="img/player.jpg" alt="user" />
+          <p id="name">Username</p>
+          <h3>Score : <span id="userscore">0</span></h3>
+          <span id="useraction"></span>
+        </div>
+        <div class="computer">
+          <img src="img/computer.jpg" alt="user" />
+          <p>COMPUTER</p>
+          <h3>Score : <span id="compscore">0</span></h3>
+          <span id="compuaction"> </span>
+        </div>
+      </div>
+      <div class="winner">
+          <p>The Winner Is : <span id="winner"></span> The Score Was : <span id="winscore">10</span> | <span id="losscore">2</span></p>
+      </div>
+    </div>
+
+    <script src="js/main.js"></script>
+    <script src="js/all.min.js"></script>
+  </body>
+</html>
